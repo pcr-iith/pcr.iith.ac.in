@@ -191,11 +191,11 @@ section {
 }
 
 footer{
-	padding-top: 60px;
-	background: url(1.jpg) center center;
+	padding-top: 15px;
+  background: url(1.jpg) center center;
 	background-size: cover;
 	background-color: #ddd;
-	height: 360px;
+	height: 250px;
 }
 
 h1{
