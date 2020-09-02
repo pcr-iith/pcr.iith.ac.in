@@ -1,0 +1,362 @@
+/*body {
+  font-size: 16px;
+  color: rgb(15, 14, 14);
+  background-color: #ffffff;
+  font-family: sans-serif;
+}*/
+
+
+.nav-item {
+  text-align: center;
+}
+.navbar {
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(219,219,219,1);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(219,219,219,1);
+  box-shadow: 0px 3px 5px 0px rgba(219,219,219,1);
+  font-weight: 600;
+}
+
+#carouselExampleIndicators .carousel-item {
+  height: 70vh;
+  min-height: 100px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-item p {
+  font-weight: bold;
+}
+
+.full-width-image {
+  width: 100vw;
+  position: relative;
+  left: 50%;  
+  margin-left: -50vw;
+}
+
+.full-width-image img {
+ width: 100%;
+}
+
+/*END HEADER */
+
+/*SIDEBAR*/
+.sidebar-section {
+  margin-bottom: 2rem;
+  /*box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.1);*/
+  box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+.sidebar h5 {
+  margin-bottom: 1rem;
+  text-align: center;
+  position: relative;
+  font-weight: 700;
+}
+.sidebar h5 span {
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  padding: 0px 15px 0 15px;
+  text-align: center;
+  font-size: 3vh;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgb(255, 110, 57);
+}
+.sidebar ul {
+  text-align: center;
+  list-style: none;
+  padding: 0px;
+}
+.sidebar ul li a {
+  /*color: rgb(0, 0, 0);*/
+  border-bottom: 1px solid #f6f6f6;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.sidebar ul li a:hover {
+  text-decoration: none;
+}
+/*SIDEBAR ENDS*/
+
+/*Blockquote*/
+.blockquote-custom {
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.blockquote img {
+  border-radius: 50%;
+  width: 180px;
+}
+
+.blockquote-custom-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -25px;
+  left: 50px;
+}
+
+#avatar {
+  padding: 0px 20px 16px 0px;
+}
+/*End blockquote*/
+
+/*Social Media*/
+@media (min-width: 768px and max-width: 1199px) {
+  .hide_it {
+    display: none !important;
+  }
+}
+
+/*Social Media End*/
+
+/* CONTACTS */
+.contact-box {
+  background-color: #ffffff;
+  border: 1px solid #e7eaec;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.contact-box > div {
+  color: inherit;
+}
+.contact-box.center-version {
+  border: 1px solid #e7eaec;
+  padding: 0;
+}
+.contact-box.center-version > div {
+  display: block;
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+.contact-box.center-version > div img {
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+.contact-box.center-version address {
+  margin-bottom: 0;
+}
+.contact-box .contact-box-footer {
+  text-align: center;
+  background-color: #ffffff;
+  border-top: 1px solid #e7eaec;
+  /*padding: 15px 20px;*/
+}
+.team-cards a{
+    text-decoration:none !important;    
+}
+/*CONTACT ENDS*/
+
+/*Content*/
+#windows, #mission, #office_struc {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.highlight {
+  background-color: #fff2ac;
+  color: black;
+  /*background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);*/
+}
+.team {
+  /*box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .2);*/
+  border:2px dashed rgb(160, 160, 160);
+  border-radius: 25px;
+  padding: 20px; 
+}
+
+/*End Content*/
+
+/* Footer */
+
+section {
+    padding: 60px 0;
+}
+
+footer{
+	padding-top: 60px;
+	background: url(1.jpg) center center;
+	background-size: cover;
+	background-color: #ddd;
+	height: 360px;
+}
+
+h1{
+	text-align: center;
+	padding: 20px;
+}
+footer h2{
+	color:  #ffae17;
+	text-transform: capitalize;
+	font-size: 24px;
+	text-align: center;
+	/*font-family: 'Open Sans';*/
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+footer li,footer i{
+	color: rgb(255, 255, 255);
+	/*font-family: 'Sans Serif';*/
+	text-align: left;
+}
+footer p{
+	color: #fff;
+	text-align: center;
+}
+p a + a {
+  padding-left: 1em;
+}
+hr{
+	border-top: 1px solid #ffae17;
+	width: 100%;
+}
+footer ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	padding-bottom: 30px;
+}
+footer li{
+	padding: 5px;
+	margin: 0;
+	text-align: left;
+}
+li span{
+  color:  #ffc965;
+}
+footer a {
+  color: white;
+}
+footer a:hover{
+  text-decoration: none;
+  color: #ffae17;
+}
+
+footer .fa{
+	
+	padding-top: 10px;
+	color: #fff;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.social .fa{
+	padding-top: 30px;
+	font-size: 30px;
+	transition: .9s;
+}
+.social .fa:hover{
+	transition: 1s;
+	transform: scale(1.1);
+	color: #ddd;
+}
+
+@media (min-width: 768px) {
+  #small {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+    .blockquote img {
+      /*display: block;*/
+      margin-left: auto;
+      margin-right: auto;
+      align-items: center;
+      width: 200px;
+    }
+    .blockquote p {
+      clear: both;
+    }
+    #list {
+      float: none !important;
+    }
+    #footer h5 {
+      padding-left: 0;
+      border-left: transparent;
+      padding-bottom: 0px;
+      margin-bottom: 10px;
+    }
+    footer {
+      height: auto !important;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    .navbar img {
+      width: 255px;
+    }
+    /* Header */
+    .navbar-brand {
+      padding-top: 10px;
+      height: 80px;
+    }
+    .navbar-brand h1 {
+      /* Restaurant name */
+      padding-top: 10px;
+    }
+    #large {
+      display: none !important;
+    }
+    .heading {
+      font-size: 20px;
+    }
+    /* End Header */
+  }
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 320px) {
+    .navbar img {
+      width: 150px;
+      padding-top: 20px;
+    }
+    .blockquote img {
+      width: 150px;
+      padding-left: -10px;
+    }
+    h1 {
+      font-size: medium;
+    }
+  }
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { 
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
