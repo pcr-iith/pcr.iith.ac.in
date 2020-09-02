@@ -171,8 +171,8 @@
   margin-right: auto;
 }
 .highlight {
-  background-color: #fff2ac;
-  color: black;
+  color: blue;
+  font-size: 115%;
   /*background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);*/
 }
 .team {
