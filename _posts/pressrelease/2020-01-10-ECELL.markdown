@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 
-event_date: 
+title: E Cell IIT-H to organize E-Summit 2k20 on 18th & 19th January
+event_date: 10-01-2020
 categories: pressrelease
-link: 
+link: Press Release -E Cell  IIT-H to organize E-Summit 2k20 on 18th & 19th January-10-01-2020.pdf
 ---

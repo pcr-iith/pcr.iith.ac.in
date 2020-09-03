@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 
-event_date: 
+title: OPPO to collaborate with IIT Hyderabad for Research on Advanced and Emerging Technologies
+event_date: 27-01-2020
 categories: pressrelease
-link: 
+link: Press Release - OPPO to collaborate with IIT Hyderabad for Research on Advanced and Emerging Technologies-27-01-2020.pdf
 ---

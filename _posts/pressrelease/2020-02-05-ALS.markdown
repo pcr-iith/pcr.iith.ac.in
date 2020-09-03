@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 
-event_date: 
+title: IIT Hyderabad Researchers find New Molecule to potentially treat Amyotrophic Lateral Sclerosis (ALS)
+event_date: 05-02-2020
 categories: pressrelease
-link: 
+link: Press Release - IIT Hyderabad Researchers find New Molecule to potentially treat Amyotrophic Lateral Sclerosis (ALS)-05-02-2020.pdf
 ---

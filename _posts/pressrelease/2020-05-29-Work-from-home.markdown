@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 
-event_date: 
+title: IIT Hyderabad to host Online Conference for HR Professionals on Work From Home
+event_date: 29-05-2020
 categories: pressrelease
-link: 
+link: Press Release - IIT Hyderabad to host Online Conference for HR Professionals on Work From Home-29-05-2020.pdf
 ---
