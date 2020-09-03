@@ -175,6 +175,10 @@
   font-size: 115%;
   /*background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);*/
 }
+.highlight_1{
+  color: red;
+  font-size: 115%;
+}
 .team {
   /*box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .2);*/
   border:2px dashed rgb(160, 160, 160);

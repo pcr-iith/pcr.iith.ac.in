@@ -6,11 +6,11 @@ title: PR Office
 <div class="col-md-12" style="padding: 0px;">
   <img src="images/Inauguaration of Kiriith by Dr B V Mohan Reddy2.jpg" id="large" alt="" style="width: 100%;">
   <img src="images/pr2.jpeg" id="small" alt="" style="width: 100%;">
-  <div class="carousel-caption">
+  <!--div class="carousel-caption">
     <p class="lead d-none d-md-block" style="font-weight: bold; color: white;"><h2>Inauguration of KirIITH by Dr. B V R Mohan Reddy, IITH BoG Chairman, Founder and Executive Chairman of Cyient Ltd.</h2></p>
+  </div-->
 </div>
-</div>
-
+<section>
 <h1 class="text-center"><b>Public Relations Office</b></h1>
 
     <!-- Page Content -->
@@ -39,10 +39,10 @@ title: PR Office
                         <p class="lead">
                           <h5>
                           <ul>
-                            <li><span class="highlight">Set-up standard guidelines</span> in-line with global requirement for better image building and promotion through timely and qualitative response time.</li>
-                            <li><span class="highlight">Explore new and better</span> methods to spark right connections and tailor communication experiences to the passions at the institute.</li>
-                            <li><span class="highlight">Embedded Web-page</span> with press releases and social media releases to help maintain data base of all key activities with easy accesses to all key stakeholders.</li>
-                            <li><span class="highlight">Streamlining</span> Media Outreach Activities internally.</li>
+                            <li><span class="highlight_1">Set-up standard guidelines</span> in-line with global requirement for better image building and promotion through timely and qualitative response time.</li>
+                            <li><span class="highlight_1">Explore new and better</span> methods to spark right connections and tailor communication experiences to the passions at the institute.</li>
+                            <li><span class="highlight_1">Embedded Web-page</span> with press releases and social media releases to help maintain data base of all key activities with easy accesses to all key stakeholders.</li>
+                            <li><span class="highlight_1">Streamlining</span> Media Outreach Activities internally.</li>
                           </ul>
                           </h5> 
                         </p>
@@ -84,9 +84,127 @@ title: PR Office
                         </ul>
                       </div>
                 </div>
+
+</section>
+
+
+<section>
+  <div class="container">
+    <div class="row" style="font-family: 'Oswald', sans-serif;">
+
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+      </style>
+      
+      <div class="col-lg-6 column">
+
+        {% assign count = 1 %}
+
+        <h2 class="text-center"><b>Press Release<br><br></b></h2>
+
+        {% assign pressrelease = site.categories['pressrelease'] %}
+                         {% for post in pressrelease %}
+                         {% if count == 4 %}
+                            {% break %}
+                          {% endif %}
+
+                         <div class="card shadow" style="margin-top:10px; margin-bottom: 10px;padding-bottom: 10px; padding-top: 10px; padding-left: 10px;padding-right: 10px;">
+                          <div class="row">
+                            <div class="col-lg-9 col-9">
+                              <p> {{post.date | date: "%d %b %Y"}}
+                                <h5>{{post.title}}</h5>
+                                <a href="./files/pressrelease/{{post.link}}">More</a>
+                              </p>
+                            </div>
+                            <div class="col-lg-3 col-3">
+                              <img src="./images/transparentlogo.png" style="width:100%;">
+                            </div>
+                          </div> 
+                          {% assign count = count | plus: 1 %}
+                        </div>
+                
+                         {% endfor %}
+            <a href="./pressrelease.html" ><button type="button" class=" shadow btn btn-info">MORE</button></a>
+      </div>
+
+      <div class="col-lg-6 column">
+        {% assign count2 = 1 %}
+        <h2 class="text-center"><b>News</b><br><br></h2>
+        {% assign news = site.categories['news'] %}
+                         {% for post in news %}
+                          {% if count2 == 4 %}
+                            {% break %}
+                          {% endif %}  
+
+                         <div class="card shadow" style="margin-top:10px; margin-bottom: 10px;">
+                            <div class="row">
+
+                              <div class="col-lg-6">
+                                <div  style="padding-bottom: 10px; padding-top: 10px; padding-left: 10px;">
+                                  <p> {{post.date | date: "%d %b %Y"}}
+                                    <h5>{{post.title}}</h5>
+                                    <a href="https://www.instagram.com/iithyderabad/">More</a>
+                                  </p>
+
+                                  {% assign count2 = count2 | plus: 1 %}
+                                </div>            
+                              </div>
+
+                              <div class="col-lg-6">
+                                <img src="./images/news/{{post.img}}" style="width:100%; height: 100%;">
+                              </div>
+
+                            </div>
+                           </div>
+                
+                         {% endfor %}
+
+                         <p>
+                           <h2>
+                             MORE:  
+                            <a href="https://www.facebook.com/iithyderabad/"  target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;
+                            <a href="https://twitter.com/IITHyderabad" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;
+                            <a href="https://www.instagram.com/iithyderabad/" target="_blank"><i class="fa fa-instagram"></i></a>&nbsp;
+                            <a href="https://www.linkedin.com/school/indian-inst-of-technology-hyderabad/" target="_blank"><i class="fa fa-linkedin"></i></a></p>                  
+                           </h2>
+                         </p>
+      </div>
+
+      <!--div class="col-lg-6 column">
+
+        {% assign count3 = 1 %}
+
+        <h2 class="text-center">Reports</h2>
+
+        {% assign reports = site.categories['annual'] or site.categories['nirf'] or site.categories['engineering'] or site.categories['arria'] %}
+                         {% for post in reports %}
+                         {% if count3 == 3 %}
+                            {% break %}
+                          {% endif %}
+
+                         <div class="card shadow" style="margin-top:10px; margin-bottom: 10px;padding-bottom: 10px; padding-top: 10px; padding-left: 10px;padding-right: 10px;">
+
+                          <p> {{post.date | date: "%d %b %Y"}}
+                            <h5>{{post.title}}</h5>
+                            <a href="./files/pressrelease/{{post.link}}">More</a>
+                          </p>
+
+                          {% assign count3 = count3 | plus: 1 %}
+                        </div>
+                
+                         {% endfor %}
+      </div-->
+
+
+    </div>
+  </div>
+</section>
+
+
+
 <section>  
          <div class="container" id="prguide">
-                  <h2><b><br><br>Guidelines</b></h2>
+                  <h2><b>Guidelines</b></h2>
                   <hr style="border: 1.5px solid coral; width: 50%;" align="left">
                   <h4><b>General Instructions</b></h4>
                 <h5>
