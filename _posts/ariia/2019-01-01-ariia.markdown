@@ -1,0 +1,7 @@
+---
+layout: post
+title: ARIIA 2019 Report
+event_date: 01-01-2019
+categories: ariia
+link: ARIIAFramework2020.pdf
+---
