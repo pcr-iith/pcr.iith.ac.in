@@ -12,19 +12,12 @@ title: Press Release
                 
                     (<li><a href="press/***.pdf" target="_blank">Insert the title of the file</a></li>)
                 -->
-                
-                <li><a href="press/Press Release - IIT Hyderabad and NVIDIA Establish Joint AI Research Centre in In-09-07-2020.pdf" target="_blank">IIT Hyderabad and NVIDIA Establish Joint AI Research Centre in In-09-07-2020</a></li>
-                <li><a href="press/Press Release - DRDO to establish Research Cell at IIT Hyderabad to meet Future Defense Technological Needs-06-07-2020.pdf" target="_blank">DRDO to establish Research Cell at IIT Hyderabad to meet Future Defense Technological Needs-06-07-2020</a></li>
-                <li><a href="press/Press Release - IIT Hyderabad Analysis moots Geothermal Energy as a Greener Alternative to technologies currently in use - 06-02-2020.pdf" target="_blank">IIT Hyderabad Analysis moots Geothermal Energy as a Greener Alternative to technologies currently in use - 06-02-2020</a></li>
-                <li><a href="press/Press Release - IIT Hyderabad and NVIDIA Establish Joint AI Research Centre in In-09-07-2020.pdf" target="_blank">IIT Hyderabad and NVIDIA Establish Joint AI Research Centre in In-09-07-2020</a></li>
-                <li><a href="press/Press Release - IIT Hyderabad born startup CRIOT strikes a collaboration with Technocorpus Inc., Japan-25-06-2020.pdf" target="_blank">IIT Hyderabad born startup CRIOT strikes a collaboration with Technocorpus Inc., Japan-25-06-2020</a></li>
-                <li><a href="press/Press Release - IIT Hyderabad calls for applications for Staff Recruitment-24-01-2020.pdf" target="_blank">IIT Hyderabad calls for applications for Staff Recruitment-24-01-2020</a></li>
-                <li><a href="press/Press Release - IIT Hyderabad celebrates Alumni Day - 06-01-2020.pdf" target="_blank">IIT Hyderabad celebrates Alumni Day - 06-01-2020</a></li>
-                <li><a href="press/Press Release - IIT Hyderabad Center for Healthcare Entrepreneurship - CfHE calls for applications for Fellowship Program - 23-04-2020.pdf" target="_blank">IIT Hyderabad Center for Healthcare Entrepreneurship - CfHE calls for applications for Fellowship Program - 23-04-2020</a></li>
-                <li><a href="press/Press Release - IIT Hyderabad CfHE incubated startup develops low-cost & portable Emergency Use Ventilator-03-04-2020.pdf" target="_blank">IIT Hyderabad CfHE incubated startup develops low-cost & portable Emergency Use Ventilator-03-04-2020</a></li>
-                <li><a href="press/Press Release - IIT Hyderabad CfHE incubated startup Heamac Healthcare comes among the top 5 in BioAsia 2020-20-02-2020.pdf" target="_blank">IIT Hyderabad CfHE incubated startup Heamac Healthcare comes among the top 5 in BioAsia 2020-20-02-2020</a></li>
-                <li><a href="press/Press Release - IIT Hyderabad Faculty Analyses the Impact of COVID-19 on the Performance of Indian Mutual Fund Industry-20-04-2020.pdf" target="_blank">IIT Hyderabad Faculty Analyses the Impact of COVID-19 on the Performance of Indian Mutual Fund Industry-20-04-2020</a></li>
-                <li><a href="press/Press Release - IIT Hyderabad hosts Med Tech Symposium to boost Medical, Healthcare Technologies-28-01-2020.pdf" target="_blank">IIT Hyderabad hosts Med Tech Symposium to boost Medical, Healthcare Technologies-28-01-2020</a></li>
+                {% assign pressrelease = site.categories['pressrelease'] %}
+                         {% for post in pressrelease %}
+
+                               <li><b>{{post.date | date: "%d %b %Y"}}: </b>{{post.title}} <a href="./files/pressrelease/{{post.link}}" target="_blank">Download</a> {{ post.content }}</a></li> 
+
+                         {% endfor %}
                 <li><a href="press/Press Release - IIT Hyderabad partners with IIT Bombay to study the change in travel patterns among commuters due to COVID-19 crisis-02-04-2020.pdf" target="_blank">IIT Hyderabad partners with IIT Bombay to study the change in travel patterns among commuters due to COVID-19 crisis-02-04-2020</a></li>
                 <li><a href="press/Press Release - IIT Hyderabad Proposes a major boost to FRIENDSHIP Project with JICA in Phase II-28-02-2020.pdf" target="_blank">IIT Hyderabad Proposes a major boost to FRIENDSHIP Project with JICA in Phase II-28-02-2020</a></li>
                 <li><a href="press/Press Release - IIT Hyderabad provides Hand Sanitizers for Sangareddy District Administration -09-04-2020.pdf" target="_blank">IIT Hyderabad provides Hand Sanitizers for Sangareddy District Administration -09-04-2020</a></li>

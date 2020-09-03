@@ -1,0 +1,7 @@
+---
+layout: post
+title: IIT Hyderabad and NVIDIA Establish Joint AI Research Centre
+event_date: 09-07-2020
+categories: pressrelease
+link: Press Release - IIT Hyderabad and NVIDIA Establish Joint AI Research Centre in In-09-07-2020.pdf
+---
