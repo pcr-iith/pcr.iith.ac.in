@@ -325,6 +325,9 @@ footer .fa{
     .heading {
       font-size: 20px;
     }
+    .pressreleasecard{
+      height: 200px;
+    }
     /* End Header */
   }
   

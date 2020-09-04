@@ -50,9 +50,8 @@ title: PR Office
                 </div>
             </div>
 
-                <div class="container" id="pract">
-                    <h2><b>Key Result Areas</b></h2>
-                    <hr style="border: 1.5px solid coral; width: 50%;" align="left">
+                <!--div class="container" id="pract">
+                    
                       <div class="col-md-6" style="display: inline-block; vertical-align: top;">
                         <ul class="list-group">
                           <li class="list-group-item" style="font-weight: bold; background-color: #fff2ac;">Institute Publications & Communications</li>
@@ -83,13 +82,17 @@ title: PR Office
                           <li class="list-group-item"><a href="https://www.linkedin.com/school/indian-inst-of-technology-hyderabad/" target="_blank" style="text-decoration: none;">LinkedIn</a></li>                          
                         </ul>
                       </div>
-                </div>
+                </div-->
 
 </section>
 
 
 <section>
   <div class="container">
+
+    <h2><b>Key Result Areas</b></h2>
+    <hr style="border: 1.5px solid coral; width: 50%;" align="left">
+
     <div class="row">
       
       <div class="col-lg-6 column">
@@ -107,7 +110,7 @@ title: PR Office
                          <div class="card shadow" style="margin-top:10px; margin-bottom: 10px;padding-bottom: 10px; padding-top: 10px; padding-left: 10px;padding-right: 10px;">
                           <div class="row">
                             <div class="col-lg-9 col-9">
-                              <p> {{post.date | date: "%d %b %Y"}}
+                              <p> <b>{{post.date | date: "%d %b %Y"}}</b>
                                 <h5>{{post.title}}</h5>
                                 <a href="./files/pressrelease/{{post.link}}">More</a>
                               </p>
@@ -135,9 +138,9 @@ title: PR Office
                          <div class="card shadow" style="margin-top:10px; margin-bottom: 10px;">
                             <div class="row">
 
-                              <div class="col-lg-6">
+                              <div class="col-lg-8">
                                 <div  style="padding-bottom: 10px; padding-top: 10px; padding-left: 10px;">
-                                  <p> {{post.date | date: "%d %b %Y"}}
+                                  <p><b>{{post.date | date: "%d %b %Y"}}</b>
                                     <h5>{{post.title}}</h5>
                                     <a href="https://www.instagram.com/iithyderabad/">More</a>
                                   </p>
@@ -146,8 +149,8 @@ title: PR Office
                                 </div>            
                               </div>
 
-                              <div class="col-lg-6">
-                                <img src="./images/news/{{post.img}}" style="width:100%; height: 100%;">
+                              <div class="col-lg-4">
+                                <img src="./images/news/{{post.img}}" style="width:100%; height: 200px;padding-bottom: 10px; padding-top: 10px;padding-right:10px; border-radius:10%">
                               </div>
 
                             </div>
