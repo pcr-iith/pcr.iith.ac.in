@@ -3,4 +3,5 @@ layout: post
 title: IITH AR 2016-17  
 categories: annual
 link: IITH AR 2016-17.pdf
+img: 2017.jpeg
 ---
