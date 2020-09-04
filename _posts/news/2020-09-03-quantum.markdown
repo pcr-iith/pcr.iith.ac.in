@@ -3,5 +3,5 @@ layout: post
 title: IITHyderabad has organized an intl. online workshop on "Quantum Information in QFT and AdS/CFT" with IIT-GN & IISC-Bangalore.
 event_date: 03-09-2020
 categories: news
-img: 1.jpeg
+img: 3.jpeg
 ---
