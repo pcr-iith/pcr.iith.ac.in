@@ -1,7 +1,0 @@
----
-layout: post
-title: IIT Hyderabad Faculty Analyses the Impact of COVID-19 on the Performance of Indian Mutual Fund Industry
-event_date: 20-04-2020
-categories: news
-img: 2.jpeg
----

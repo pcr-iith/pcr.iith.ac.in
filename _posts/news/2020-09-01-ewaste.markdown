@@ -1,0 +1,7 @@
+---
+layout: post
+title: E-Waste is not a Waste but Asset, IIT-Hyderabad conducted virtual orientation for 1st Mtech Batch in E-waste Resource Engg and Mgmt.
+event_date: 1-09-2020
+categories: news
+img: 3.jpeg
+---
