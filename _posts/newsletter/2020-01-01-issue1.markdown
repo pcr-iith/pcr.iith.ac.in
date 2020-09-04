@@ -5,5 +5,5 @@ title: An Abstract of 2019
 event_date: 01-01-2020
 categories: newsletter
 img: issue1.jpeg
-link: 
+link: Kiriith-The-Crowning-Glory-Issue-1-January-2020.pdf
 ---

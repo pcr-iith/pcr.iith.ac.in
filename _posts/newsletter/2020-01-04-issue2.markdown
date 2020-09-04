@@ -5,5 +5,5 @@ title: Combating COVID-19@IITH
 event_date: 01-04-2020
 categories: newsletter
 img: issue2.jpeg
-link: 
+link: Kiriith-2nd-Issue.pdf
 ---

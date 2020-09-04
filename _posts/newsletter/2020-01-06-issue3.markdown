@@ -5,5 +5,5 @@ title: Arena of AI@IITH
 event_date: 01-06-2020
 categories: newsletter
 img: issue3.jpeg
-link: 
+link: Kiriith - Issue -3 Arena of AI @IITH.pdf
 ---
