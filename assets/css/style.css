@@ -279,9 +279,16 @@ footer .fa{
   #small {
     display: none !important;
   }
+  .banner_font{
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 767px) {
+    .banner_font{
+      padding-top:100px;
+      font-size: 13px;
+    }
     .blockquote img {
       /*display: block;*/
       margin-left: auto;

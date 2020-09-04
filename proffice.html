@@ -6,9 +6,9 @@ title: PR Office
 <div class="col-md-12" style="padding: 0px;">
   <img src="images/proffice.jpeg" id="large" alt="" style="width: 100%;">
   <img src="images/pr2.jpeg" id="small" alt="" style="width: 100%;">
-  <!--div class="carousel-caption">
-    <p class="lead d-none d-md-block" style="font-weight: bold; color: white;"><h2>Inauguration of KirIITH by Dr. B V R Mohan Reddy, IITH BoG Chairman, Founder and Executive Chairman of Cyient Ltd.</h2></p>
-  </div-->
+  <div class="carousel-caption">
+    <p class="lead d-none d-md-block" style="font-weight: bold; color: white;"><h2 class="banner_font"><br>Inauguration of किरIITH by Dr. B V R Mohan Reddy, IITH BoG Chairman, Founder and Executive Chairman of Cyient Ltd.</h2></p>
+  </div>
 </div>
 <section>
 <h1 class="text-center"><b>Public Relations Office</b></h1>
@@ -24,7 +24,7 @@ title: PR Office
                             <h5><span><b>QUICK LINKS</b></span></h5>
                             <ul>
                                 <li><a href="#prvision">Vision</a></li>
-                                <li><a href="#pract">Activities</a></li>
+                                <li><a href="#pract">Key Result Areas</a></li>
                                 <li><a href="#prguide">Guidelines</a></li>
                                 <li><a href="#prteam">PR Office Team</a></li>
                             </ul>
@@ -101,16 +101,16 @@ title: PR Office
      }
   </style>  
 
-    <h2><b>Key Result Areas</b></h2>
+    <h2 id="pract" ><b>Key Result Areas</b></h2>
     <hr style="border: 1.5px solid coral; width: 50%;" align="left">
 
     <div class="row">
       
-      <div class="col-lg-6 column">
+      <div class="col-lg-6 column" id="press">
 
         {% assign count = 1 %}
 
-        <h2 class="text-center"><b>Press Release<br></b></h2>
+        <h2 class="text-center"><b>Press Releases<br></b></h2>
 
         {% assign pressrelease = site.categories['pressrelease'] %}
                          {% for post in pressrelease %}
@@ -252,7 +252,7 @@ title: PR Office
                          To view previous Annual Reports <a  class="highlight" href="./report.html" >Click here</a>
       </div>
 
-      <div class="col-lg-6 column" id="annual">
+      <div class="col-lg-6 column" id="ranking">
         <h2 class="text-center"><b><br>Ranking Reports</b><br></h2>
 
                          <div class="card shadow" style="margin-top:10px; margin-bottom: 10px;">

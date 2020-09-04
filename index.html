@@ -12,12 +12,18 @@ title: Home
   <div class="carousel-inner" role="listbox">
       <div class="carousel-item active" style="background-image: url('./images/1.jpeg');">
           <div class="carousel-caption">
-              <p class="lead"><h2><b>Public and Corporate Relations Office (PCRO)</b></h2></p>
+              <p class="lead"><h2 class="banner_font"><b>PCR Office -  A holistic approach to Public and Corporate Relations</b></h2></p>
           </div>
       </div>
       <div class="carousel-item" style="background-image: url('./images/2.jpeg')">
+        <div class="carousel-caption">
+          <p class="lead"><h2 class="banner_font"><b>PR Office - Perception & Branding</b></h2></p>
+        </div>
       </div>
       <div class="carousel-item" style="background-image: url('./images/3.jpeg">
+        <div class="carousel-caption">
+          <p class="lead"><h2 class="banner_font"><b>CR Office - Strategic Partnership</b></h2></p>
+        </div>
       </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -44,7 +50,7 @@ title: Home
                               <li><a href="#message">Message from Dean PCR</a></li>
                               <li><a href="#opportunity">Windows of Opportunity</a></li>
                               <li><a href="#mission&values">Mission, Vision & Value</a></li>
-                              <li><a href="#media">Social Media</a></li>
+                              <li><a href="#newsletter">किरIITH | Highlights</a></li>
                           </ul>
                       </div>
                   </div>
@@ -84,60 +90,84 @@ title: Home
           <div class="col-md-12"><img src="images/mission.jpg" id="mission" alt=""> </div>
     </div>
     
-</section>
-
-<section>
   <div class="container">
     <div class="row">
-      
+      <style>
+        @media (min-width: 992px) {
+          .press_release_card{
+            height: 200px;
+          }
+          .press_release_card_1{
+            height: 160px;
+          }
+          .image_card{
+            height: 150px;
+            width: 150px;
+          }
+         }
+      </style> 
+
       <div class="col-lg-6 column">
-
-        {% assign count = 1 %}
-
-        <h2 class="text-center"><b>Press Release<br><br></b></h2>
-
-        {% assign pressrelease = site.categories['pressrelease'] %}
-                         {% for post in pressrelease %}
-                         {% if count == 4 %}
+        {% assign count3 = 1 %}
+        <h2 class="text-center" id="newsletter"><b>किरIITH</b> - The Crowning Glory<br></h2>
+        <h5 class="text-center"><i>A quarterly e-Newsletter of IITH</i></h5>
+        {% assign newsletter = site.categories['newsletter'] %}
+                         {% for post in newsletter %}
+                          {% if count3 == 4 %}
                             {% break %}
-                          {% endif %}
+                          {% endif %}  
 
-                         <div class="card shadow" style="margin-top:10px; margin-bottom: 10px;padding-bottom: 10px; padding-top: 10px; padding-left: 10px;padding-right: 10px;">
-                          <div class="row">
-                            <div class="col-lg-9 col-9">
-                              <p> <b>{{post.date | date: "%d %b %Y"}}</b>
-                                <h5>{{post.title}}</h5>
-                                <a href="./files/pressrelease/{{post.link}}">More</a>
-                              </p>
+                         <div class="card shadow press_release_card" style="margin-top:10px; margin-bottom: 10px;">
+                            <div class="row">
+
+                              <div class="col-lg-8">
+                                <div  style="padding-bottom: 10px; padding-top: 10px; padding-left: 10px;">
+                                  <p>
+                                    <h4><b>{{post.issue}}</b></h4>
+                                    <h3>{{post.title}}</h3>
+                                    <h6>
+                                      <a target="_blank" href="./files/newsletter/{{post.link}}"<b>Download</b></a>&nbsp; 
+                                    </h6>
+                                  </p>
+
+                                  {% assign count3 = count3 | plus: 1 %}
+                                </div>            
+                              </div>
+
+                              <div class="col-lg-4">
+                                <img class="image_card" src="./images/newsletter/{{post.img}}" style="width:100%; padding-bottom: 10px; padding-top: 10px;padding-right:10px; border-radius:10%; padding-left:10px;">
+                              </div>
+
                             </div>
-                            <div class="col-lg-3 col-3">
-                              <img src="./images/transparentlogo.png" style="width:100%;">
-                            </div>
-                          </div> 
-                          {% assign count = count | plus: 1 %}
-                        </div>
+                           </div>
                 
                          {% endfor %}
-            <a href="./pressrelease.html" ><button type="button" class=" shadow btn btn-info">MORE</button></a>
       </div>
 
-      <div class="col-lg-6 column">
+      <div class="col-lg-6 column" id="news">
         {% assign count2 = 1 %}
-        <h2 class="text-center"><b>News</b><br><br></h2>
+        <h2 class="text-center"><b>Highlights</b><br></h2>
+        <h5><br></h5>
         {% assign news = site.categories['news'] %}
                          {% for post in news %}
                           {% if count2 == 4 %}
                             {% break %}
                           {% endif %}  
 
-                         <div class="card shadow" style="margin-top:10px; margin-bottom: 10px;">
+                         <div class="card shadow press_release_card" style="margin-top:10px; margin-bottom: 10px;">
                             <div class="row">
 
                               <div class="col-lg-8">
                                 <div  style="padding-bottom: 10px; padding-top: 10px; padding-left: 10px;">
                                   <p><b>{{post.date | date: "%d %b %Y"}}</b>
                                     <h5>{{post.title}}</h5>
-                                    <a href="https://www.instagram.com/iithyderabad/">More</a>
+                                    <h6>
+                                      <b>More</b>&nbsp; 
+                                      <a href="https://www.facebook.com/iithyderabad/"  target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;
+                                      <a href="https://twitter.com/IITHyderabad" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;
+                                      <a href="https://www.instagram.com/iithyderabad/" target="_blank"><i class="fa fa-instagram"></i></a>&nbsp;
+                                      <a href="https://www.linkedin.com/school/indian-inst-of-technology-hyderabad/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                    </h6>
                                   </p>
 
                                   {% assign count2 = count2 | plus: 1 %}
@@ -145,7 +175,7 @@ title: Home
                               </div>
 
                               <div class="col-lg-4">
-                                <img src="./images/news/{{post.img}}" style="width:100%; height: 100%;">
+                                <img class="image_card" src="./images/news/{{post.img}}" style="width:100%;padding-bottom: 10px; padding-top: 10px;padding-right:10px; border-radius:10%;padding-left:10px;">
                               </div>
 
                             </div>
@@ -153,42 +183,7 @@ title: Home
                 
                          {% endfor %}
 
-                         <p>
-                           <h2>
-                             MORE:  
-                            <a href="https://www.facebook.com/iithyderabad/"  target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;
-                            <a href="https://twitter.com/IITHyderabad" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;
-                            <a href="https://www.instagram.com/iithyderabad/" target="_blank"><i class="fa fa-instagram"></i></a>&nbsp;
-                            <a href="https://www.linkedin.com/school/indian-inst-of-technology-hyderabad/" target="_blank"><i class="fa fa-linkedin"></i></a></p>                  
-                           </h2>
-                         </p>
       </div>
-
-      <!--div class="col-lg-6 column">
-
-        {% assign count3 = 1 %}
-
-        <h2 class="text-center">Reports</h2>
-
-        {% assign reports = site.categories['annual'] or site.categories['nirf'] or site.categories['engineering'] or site.categories['arria'] %}
-                         {% for post in reports %}
-                         {% if count3 == 3 %}
-                            {% break %}
-                          {% endif %}
-
-                         <div class="card shadow" style="margin-top:10px; margin-bottom: 10px;padding-bottom: 10px; padding-top: 10px; padding-left: 10px;padding-right: 10px;">
-
-                          <p> {{post.date | date: "%d %b %Y"}}
-                            <h5>{{post.title}}</h5>
-                            <a href="./files/pressrelease/{{post.link}}">More</a>
-                          </p>
-
-                          {% assign count3 = count3 | plus: 1 %}
-                        </div>
-                
-                         {% endfor %}
-      </div-->
-
 
     </div>
   </div>
