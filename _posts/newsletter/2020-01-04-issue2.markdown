@@ -1,0 +1,9 @@
+---
+layout: post
+issue: Issue 2, April 2020 
+title: Combating COVID-19@IITH
+event_date: 01-04-2020
+categories: newsletter
+img: issue2.jpeg
+link: 
+---

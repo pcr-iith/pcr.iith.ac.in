@@ -1,0 +1,9 @@
+---
+layout: post
+issue: Issue 1, Janurary 2020 
+title: An Abstract of 2019
+event_date: 01-01-2020
+categories: newsletter
+img: issue1.jpeg
+link: 
+---
